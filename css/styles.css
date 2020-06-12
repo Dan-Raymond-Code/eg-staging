@@ -2,11 +2,23 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
+.top-nav {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.disclaimer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .bc {
   display: flex;
-  width: 50%;
+  width: 65%;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
   border-top: 1px solid #d0d0d0;
   padding-top: 0.5rem;
 }
@@ -15,18 +27,23 @@ body {
   flex: 0 0 275px;
 }
 
+.logo.no-logo {
+  display: none;
+}
+
 .logo > img {
   max-width: 250px;
-  border: 1px solid #c0c0c0;
+  /* border: 1px solid #c0c0c0; */
 }
 
 .brand {
-  flex: 1 0 auto;
+  flex: 1 0 450px;
 }
 
 .flag {
-  flex: 0 1 7%;
-  background-color: #efefef;
+  flex: 1 0 7%;
+  background-color: #fffdfe;
+  text-align: right;
 }
 
 .flag > img {
