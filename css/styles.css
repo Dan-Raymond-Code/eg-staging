@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.2rem;
+  background-color: #f2f2f4;
+}
+
+b {
+  font-size: 1.4rem;
 }
 
 .nav-container {
@@ -34,6 +42,11 @@ body {
   margin: 0 auto 2rem;
   border-top: 1px solid #d0d0d0;
   padding-top: 0.5rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  -webkit-box-shadow: 5px 5px 5px -1px #7a7a7a;
+  box-shadow: 5px 5px 5px -1px #7a7a7a;
 }
 
 .logo {
@@ -46,6 +59,7 @@ body {
 
 .logo > img {
   max-width: 250px;
+  box-shadow: 5px 5px 5px -1px #7a7a7a;
   /* border: 1px solid #c0c0c0; */
 }
 
